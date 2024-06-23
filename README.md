@@ -1,16 +1,110 @@
-# e_learning_ui
+# E-Learning UI
 
-A new Flutter project.
+This project is a Flutter-based e-learning application with a sleek and modern user interface. It features various screens including an onboarding screen, featured categories, and a detailed learning screen with video playback functionality.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Onboarding Screen
+![Onboarding Screen](https://i.postimg.cc/SKPgg4vt/01.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Featured Categories
+![Featured Categories](https://i.postimg.cc/tJQ2H5y3/02.png)
+
+### Learning Screen
+![Learning Screen](https://i.postimg.cc/KvQr9FKr/03.png)
+
+## Features
+
+- **Onboarding Screen:** An introductory screen to welcome users and encourage them to get started.
+- **Featured Categories:** Displays various learning categories in a grid layout.
+- **Learning Screen:** Provides detailed information about a specific category and includes video playback functionality.
+
+## Installation
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/yourusername/e-learning-ui.git
+    cd e-learning-ui
+    ```
+
+2. **Install dependencies:**
+
+    ```sh
+    flutter pub get
+    ```
+
+3. **Run the app:**
+
+    ```sh
+    flutter run
+    ```
+
+## Usage
+
+1. **Onboarding Screen:** Users are greeted with a welcoming message and a 'Get Started' button.
+2. **Featured Categories:** Users can explore different categories. Clicking on a category navigates to the detailed learning screen.
+3. **Learning Screen:** Users can watch an introductory video and see details about the selected category.
+
+## Folder Structure
+
+```plaintext
+lib/
+├── utils/
+│   ├── colors.dart
+├── views/
+│   ├── NavBarView/
+│   │   └── navbar_view.dart
+│   ├── OnBoardingScreen/
+│   │   └── onboarding_screen.dart
+│   ├── FeaturedScreen/
+│   │   └── featured_page.dart
+│   ├── LearningScreen/
+│   │   └── learning_screen.dart
+├── widgets/
+│   ├── app_bar.dart
+│   ├── button.dart
+main.dart
+```
+## Dependencies
+
+- **flutter:** SDK for building cross-platform apps.
+- **google_fonts:** Provides access to the Google Fonts API.
+- **iconsax:** A collection of icons.
+- **video_player:** Video playback functionality.
+
+Add these dependencies to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  iconsax: ^0.0.4
+  video_player: ^2.1.12
+```
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+
