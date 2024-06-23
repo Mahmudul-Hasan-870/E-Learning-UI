@@ -16,13 +16,13 @@ This project is a Flutter-based e-learning application with a sleek and modern u
 ## Screenshots
 
 ### Onboarding Screen
-![Onboarding Screen](https://i.postimg.cc/SKPgg4vt/01.png)
+![Onboarding Screen](https://i.ibb.co/yk1hvsX/001.png)
 
 ### Featured Categories
-![Featured Categories](https://i.postimg.cc/tJQ2H5y3/02.png)
+![Featured Categories](https://i.ibb.co/728FSLP/002.png)
 
 ### Learning Screen
-![Learning Screen](https://i.postimg.cc/KvQr9FKr/03.png)
+![Learning Screen](https://i.ibb.co/9hBJKmK/003.png)
 
 ## Features
 
